@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body i{
+    color: #CD4C80;
+}
+body h1 h2 h3 h4 h5 h6{
+    margin: 0px;
+    padding: 0px;
+}
+#top{
+    width: 100%;
+    background-color: #253F98;
+    color: #fff;
+    padding: 20px 0px;
+}
+#top p{
+    color: #AFBDEF;
+    margin-bottom: 0;
+}
+#top h4{
+    margin-bottom: 0;
+}
+#top h1{
+    margin-bottom: 0;
+}
+.con{
+    width: 80%;
+    margin: auto;
+}
+span{
+    color: #CD4C80;
+}
+nav{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+#navbar ul{
+    list-style: none;
+    padding: 20px 0px;
+}
+#navbar ul li{
+    display: inline-block;
+    font-size: 15px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 25px;
+}
+#navbar ul li a:first-child{
+    padding-left: 0px;
+}
+#navbar ul li a:hover{
+    color: #CD4C80;
+}
+.current{
+    color: #CD4C80;
+}
+.nav-right{
+    padding-top: 5px;
+    text-align: right;
+
+}
+.nav-right button{
+    width: 300px;
+    background-color: #ff0468;
+    color: #fff;
+    align-content: right;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px 0px;
+}
+#show-case{
+    width: 100%;
+    max-height: 650px;
+}
+#show-case .left{
+    width: 38%;
+    height: 500px;
+    float: left;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.left h1{
+    font-size: 80px;
+    color: black;
+    opacity: 1.9;
+    position: absolute;
+}
+#show-case .blue-cart{
+    width: 108%;
+    height: 100%;
+    background-color: #253F98;
+    opacity: 0.99;
+    color: #fff;
+    padding-top: 80px;
+}
+#show-case .right{
+    width: 62%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+}
+#show-case button{
+    width: 300px;
+    background-color: #ff0468;;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px 0px;
+}
+/*#show-case .ok{
+    background-color: #CD4C80;
+    width: 40px;
+    height: 40px;
+    margin-top: 120px;
+    margin-left: 410px;
+}
+#show-case .ok-blue{
+    background-color: #253F98;
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: -135px;
+    position: absolute;
+}*/
+#cart-section{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top: 5px;
+}
+#cart-section h1{
+    width: 100%;
+    margin: auto;
+    color: gray;
+    opacity: 0.5;
+    font-size: 200px;
+    text-align: center;
+    position: absolute;
+}
+.white-overly{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.9;
+    position: relative;
+    padding-top: 80px;
+}
+.white-overly h2{
+    font-size: 36px;
+    padding-bottom: 60px;
+}
+#cart-section a{
+    text-decoration: none;
+    color: #333;
+}
+#cart-section a:hover{
+    color: #253F98;
+}
+#cart-section .current .card{
+    border: 1px solid #253F98;
+    color: #333
+}
+#about-us{
+    width: 100%;
+    height: 550px;
+    margin-top: 200px;
+}
+#about-us h2{
+    padding-bottom: 0;
+}
+#about-us h1{
+    width: 100%;
+    margin: auto;
+    color: gray;
+    opacity: 0.5;
+    font-size: 200px;
+    position: absolute;   
+}
+#about-us .white-overly{
+    width: 100%;
+    height: 100%;
+    background-color: #DFE1E6;
+    opacity: 0.9;
+    position: relative;
+    padding-top: 70px;
+}
+.blue-span{
+    color: #253F98;
+}
+.about-right{
+    position: relative;
+}
+.button-watch{
+    width: 300px;
+    height: 50px;
+    background-color: #ff0468;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 410px;
+    margin-left: -560px;
+    text-align: center;
+}
+.button-watch i{
+    color: #FFFFFF;
+}
+.why-choose h1{
+        font-size: 70px;
+        color: black;
+        position: absolute;
+}
+.card ul{
+    list-style: none;
+}
+.card ul li::before{
+    content: '✓';
+    color: blue;
+}
+#cart-section .current2 .card{
+    border: 1px solid #ff0468;
+    box-shadow: 1px 1px 7px #ff0468;
+    color: #333;
+}
+.current2{
+    color: #CD4C80;
+}
+#comment{
+    width: 100%;
+    max-height: 650px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+.left-comment{
+    width: 50%;
+    float: left;
+    position: absolute;
+}
+.right-comment{
+    width: 55%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.right-comment h1{
+    font-size: 300px;
+    text-align: end;
+    margin-top: 300px;
+}
+.blu-card{
+    width: 100%;
+    height: 500px;
+    background-color: #253F98;
+    opacity: 0.99;
+    color: #fff;
+    position: absolute;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 100px 110px 0;
+}
+.clr{
+    clear: both;
+}
+#doctors{
+    width: 100%;
+    height: 650px;
+    margin-top: 0;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#doctors h1{
+    text-align: right;
+    font-size: 250px;
+}
+.white-boxs{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.95;
+    position: relative;
+    padding-top: 0px;
+    text-align: center;
+}
+.white-boxs h2{
+    text-align: center;
+    margin-top: 0px;
+}
+#doctors .card{
+    position: absolute;
+}
+.bt-blue{
+    width: 175px;
+    background-color:#253F98;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 0;
+    position: relative;
+    margin-top: 450px;
+}
+.bn-current{
+    width: 175px;
+    background-color: #ff0468;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 0;
+    position: relative;
+    margin-top: 450px;
+}
+#contact{
+    width: 100%;
+    height: 650px;
+    margin-top: 100px;
+}
+.left-contact{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.right-contact{
+    width: 50%;
+    height: 500px;
+    float: right;
+    margin: 75px 0px;
+}
+.right-header{
+    position: absolute;
+}
+.right-contact h1{
+    width: 100%;
+    height: 100%;
+    font-size: 120px;
+    padding-left: 300px;
+}
+.blue-contact{
+    width: 90%;
+    height: 500px;
+    background-color: #253F98;
+    color: #fff;
+    opacity: 0.98;
+    margin-left: 10%;
+    padding: 100px 50px 0;
+}
+.blue-contact p{
+    border-bottom: 1px solid #fff;
+}
+#contact button{
+    width: 300px;
+    background-color: #ff0468;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px 0px;
+}
+#blog{
+    width: 100%;
+    height: 650px;
+    margin-top: 50px;
+}
+#blog h1{
+    text-align: right;
+    font-size: 180px;
+}
+.blog-head{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.white-blog{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.98;
+    position: relative;
+}
+.white-blog h2{
+    padding-top: 100px;
+}
+.blog-header{
+    text-align: center;
+}
+#blog button{
+    width: 110px;
+    background-color: #253F98;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+}
+#blog a{
+    color: #ff0468;
+}
+#main-footer{
+    width: 100%;
+    height: 600px;
+    background-color: #0E1B46;
+    color: #fff;
+    padding-top: 50px;
+}
+.footer-logo h1{
+    display: inline;
+}
+.footer-logo i{
+    color: #ff0468
+}
+.sino{
+    color: #ff0468;
+}
+footer h2{
+    border-bottom: 1px solid #ff0468;
+}
+footer h2:border-bottom{
+    width: 50%;
+}
+.map{
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+}
+.map a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+footer input{
+    width: 80%;
+    height: 50px;
+    padding: 5px 10px;
+    float: left;
+}
+.footer-sub i{
+    color: #ff0468;
+    float: right;
+}
+.footer-pr{
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #CD4C80;
+}
+.footer-current{
+    color: #CD4C80;
+}
+#last-footer{
+    width: 100%;
+    height: 80px;
+    background-color: #101C44;
+    color: #757C97;
+    border-top: 1px solid #25325D;
+    margin-top: 0px;
+    padding: 30px 0;
+}
